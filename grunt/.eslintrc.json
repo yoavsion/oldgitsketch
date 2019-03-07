@@ -1,0 +1,60 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "plugins": [
+        "promise",
+        "react"
+    ],
+    "extends": ["eslint:recommended", "plugin:react/recommended"],
+    "env": {
+        "node": true
+    },
+    "rules": {
+        // Require trailing commas in multiline object and array definitions to reduce diffs when adding
+        // or removing entries, e.g.
+        // [
+        //     "dangle",
+        // ]
+        "comma-dangle": ["error", "always-multiline"],
+
+        // Enforce curly braces for control statements
+        "curly": "error",
+
+        // a.foo instead of a["foo"]
+        "dot-notation": "error",
+
+        // Enforce === and !==
+        "eqeqeq": "error",
+
+        // Allow multiple spaces only in expressions that we may opt to align along columns for readability.
+        // {
+        //     a:             0   // Property
+        // };
+        // var c =            1;  // VariableDeclator
+        // obj.d =            2;  // AssignmentExpression
+        // [3,      3,        3]; // ArrayExpression
+        // {     a: 4      b: 4 } // ObjectExpression
+        // f(       5,        5)  // CallExpression
+        //          6   !==   6   // BinaryExpression
+        // 7   ?    7    :    7   // ConditionalExpression
+        //    a:    8   ||    8   // LogicalExpression
+        // func();                // EOLComment
+        "no-multi-spaces": ["error", {
+            "ignoreEOLComments": true,
+            "exceptions": {
+                "Property":                 true,
+                "VariableDeclarator":       true,
+                "AssignmentExpression":     true,
+                "ArrayExpression":          true,
+                "ObjectExpression":         true,
+                "CallExpression":           true,
+                "BinaryExpression":         true,
+                "ConditionalExpression":    true,
+                "LogicalExpression":        true
+            }
+        }],
+
+        "strict": ["error", "global"]
+    }
+}

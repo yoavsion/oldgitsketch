@@ -1,0 +1,39 @@
+{
+  "name": "gitsketch",
+  "version": "1.0.0",
+  "description": "A set of grunt tasks for versioning sketch file contents in git",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoavsion/gitsketch.git"
+  },
+  "keywords": [
+    "git",
+    "sketch",
+    "grunt",
+    "github",
+    "sketchapp"
+  ],
+  "author": "Yoav Sion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yoavsion/gitsketch/issues"
+  },
+  "homepage": "https://github.com/yoavsion/gitsketch#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "compressing": "^1.4.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "grunt": "^1.0.3",
+    "path": "^0.12.7",
+    "recursive-readdir": "^2.2.2",
+    "simple-git": "^1.107.0",
+    "when": "^3.7.8",
+    "which": "^1.3.1",
+    "xml2js": "^0.4.19"
+  }
+}
