@@ -3,12 +3,25 @@
     <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
     <title>Shapes</title>
     <desc>Created with sketchtool.</desc>
-    <defs></defs>
+    <defs>
+        <pattern id="pattern-1" width="50" height="50" x="43" y="12" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2"></use>
+        </pattern>
+        <image id="image-2" width="50" height="50" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAEGWlDQ1BrQ0dDb2xvclNwYWNlR2VuZXJpY1JHQgAAOI2NVV1oHFUUPrtzZyMkzlNsNIV0qD8NJQ2TVjShtLp/3d02bpZJNtoi6GT27s6Yyc44M7v9oU9FUHwx6psUxL+3gCAo9Q/bPrQvlQol2tQgKD60+INQ6Ium65k7M5lpurHeZe58853vnnvuuWfvBei5qliWkRQBFpquLRcy4nOHj4g9K5CEh6AXBqFXUR0rXalMAjZPC3e1W99Dwntf2dXd/p+tt0YdFSBxH2Kz5qgLiI8B8KdVy3YBevqRHz/qWh72Yui3MUDEL3q44WPXw3M+fo1pZuQs4tOIBVVTaoiXEI/MxfhGDPsxsNZfoE1q66ro5aJim3XdoLFw72H+n23BaIXzbcOnz5mfPoTvYVz7KzUl5+FRxEuqkp9G/Ajia219thzg25abkRE/BpDc3pqvphHvRFys2weqvp+krbWKIX7nhDbzLOItiM8358pTwdirqpPFnMF2xLc1WvLyOwTAibpbmvHHcvttU57y5+XqNZrLe3lE/Pq8eUj2fXKfOe3pfOjzhJYtB/yll5SDFcSDiH+hRkH25+L+sdxKEAMZahrlSX8ukqMOWy/jXW2m6M9LDBc31B9LFuv6gVKg/0Szi3KAr1kGq1GMjU/aLbnq6/lRxc4XfJ98hTargX++DbMJBSiYMIe9Ck1YAxFkKEAG3xbYaKmDDgYyFK0UGYpfoWYXG+fAPPI6tJnNwb7ClP7IyF+D+bjOtCpkhz6CFrIa/I6sFtNl8auFXGMTP34sNwI/JhkgEtmDz14ySfaRcTIBInmKPE32kxyyE2Tv+thKbEVePDfW/byMM1Kmm0XdObS7oGD/MypMXFPXrCwOtoYjyyn7BV29/MZfsVzpLDdRtuIZnbpXzvlf+ev8MvYr/Gqk4H/kV/G3csdazLuyTMPsbFhzd1UabQbjFvDRmcWJxR3zcfHkVw9GfpbJmeev9F08WW8uDkaslwX6avlWGU6NRKz0g/SHtCy9J30o/ca9zX3Kfc19zn3BXQKRO8ud477hLnAfc1/G9mrzGlrfexZ5GLdn6ZZrrEohI2wVHhZywjbhUWEy8icMCGNCUdiBlq3r+xafL549HQ5jH+an+1y+LlYBifuxAvRN/lVVVOlwlCkdVm9NOL5BE4wkQ2SMlDZU97hX86EilU/lUmkQUztTE6mx1EEPh7OmdqBtAvv8HdWpbrJS6tJj3n0CWdM6busNzRV3S9KTYhqvNiqWmuroiKgYhshMjmhTh9ptWhsF7970j/SbMrsPE1suR5z7DMC+P/Hs+y7ijrQAlhyAgccjbhjPygfeBTjzhNqy28EdkUh8C+DU9+z2v/oyeH791OncxHOs5y2AtTc7nb/f73TWPkD/qwBnjX8BoJ98VQNcC+8AAADKSURBVGgF7ZgxCsQwDATjvMb/f41/k1QGF9oikWBBzDU5lpwUzejAZFwfPnPOZ9++1hr7e+X1b4+78iGctRjEST/qjZGIijPDiJN+1BsjERVn1sbIOI8ETqLZ3m2MtBnk0wn2XENOv9k/g/h9m9ViEGHYFmPEhl40xogAY4sxYkMvGmNEgLHFGLGhF40xIsDYYozY0IvGGBFgbHEbI7ygs+2QaNxntcSAYcwLuhBLbdhmtRikdjHy1TCSZ1hbASO1PPPVMJJnWFvhBRthG07MMgb9AAAAAElFTkSuQmCC"></image>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="50%" id="radialGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#A8A8A8" offset="14.8843931%"></stop>
+            <stop stop-color="#EDEDED" offset="50.1490246%"></stop>
+            <stop stop-color="#D9D9D9" offset="73.7581286%"></stop>
+            <stop stop-color="#6A6A6A" offset="100%"></stop>
+        </radialGradient>
+    </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Shapes">
-            <rect id="Rectangle" stroke="#979797" fill="#F8E71C" x="93.5" y="62.5" width="79" height="79"></rect>
-            <circle id="Oval" stroke="#979797" fill="#7ED321" cx="353" cy="102" r="40"></circle>
-            <polygon id="Triangle" stroke="#979797" fill="#50E3C2" points="573 62 613 142 533 142"></polygon>
+            <rect id="Rectangle" stroke="#979797" fill="url(#pattern-1)" transform="translate(133.000000, 102.000000) rotate(45.000000) translate(-133.000000, -102.000000) " x="93.5" y="62.5" width="79" height="79"></rect>
+            <circle id="Oval" stroke="#979797" fill="url(#radialGradient-3)" cx="353.5685" cy="101.5685" r="56.5685"></circle>
+            <polygon id="Triangle" stroke="#979797" fill="#417505" transform="translate(573.000000, 108.989750) scale(1, -1) translate(-573.000000, -108.989750) " points="573 60 629.5685 157.9795 516.4315 157.9795"></polygon>
             <text id="SQUARE" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#000000">
                 <tspan x="107" y="189">SQUARE</tspan>
             </text>

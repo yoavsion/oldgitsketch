@@ -107,7 +107,7 @@
 					"nameIsFixed": false,
 					"resizingConstraint": 63,
 					"resizingType": 0,
-					"rotation": 0,
+					"rotation": -45,
 					"shouldBreakMaskChain": false,
 					"style": {
 						"_class": "style",
@@ -139,10 +139,15 @@
 									"green": 0.9072384238243103,
 									"red": 0.9707751870155334
 								},
-								"fillType": 0,
+								"fillType": 4,
+								"image": {
+									"_class": "MSJSONFileReference",
+									"_ref_class": "MSImageData",
+									"_ref": "images/4ace07aa5d5a9d6055cf98735cd9f515ca8b0585.pdf"
+								},
 								"noiseIndex": 0,
 								"noiseIntensity": 0,
-								"patternFillType": 1,
+								"patternFillType": 0,
 								"patternTileScale": 1
 							}
 						],
@@ -250,10 +255,10 @@
 					"frame": {
 						"_class": "rect",
 						"constrainProportions": true,
-						"height": 80,
-						"width": 80,
-						"x": 313,
-						"y": 62
+						"height": 113.137,
+						"width": 113.137,
+						"x": 297,
+						"y": 45
 					},
 					"isFixedToViewport": false,
 					"isFlippedHorizontal": false,
@@ -297,7 +302,82 @@
 									"green": 0.8262341022491455,
 									"red": 0.4941504597663879
 								},
-								"fillType": 0,
+								"fillType": 1,
+								"gradient": {
+									"_class": "gradient",
+									"elipseLength": 0,
+									"from": "{0.5, 0.5}",
+									"gradientType": 1,
+									"stops": [
+										{
+											"_class": "gradientStop",
+											"color": {
+												"_class": "color",
+												"alpha": 1,
+												"blue": 1,
+												"green": 1,
+												"red": 1
+											},
+											"position": 0
+										},
+										{
+											"_class": "gradientStop",
+											"color": {
+												"_class": "color",
+												"alpha": 1,
+												"blue": 0,
+												"green": 0,
+												"red": 0
+											},
+											"position": 0
+										},
+										{
+											"_class": "gradientStop",
+											"color": {
+												"_class": "color",
+												"alpha": 1,
+												"blue": 0.6586222422332283,
+												"green": 0.6586222422332283,
+												"red": 0.6586222422332283
+											},
+											"position": 0.1488439306358381
+										},
+										{
+											"_class": "gradientStop",
+											"color": {
+												"_class": "color",
+												"alpha": 1,
+												"blue": 0.927561649659864,
+												"green": 0.927561649659864,
+												"red": 0.927561649659864
+											},
+											"position": 0.5014902456647399
+										},
+										{
+											"_class": "gradientStop",
+											"color": {
+												"_class": "color",
+												"alpha": 1,
+												"blue": 0.8514358184618172,
+												"green": 0.8514358184618172,
+												"red": 0.8514358184618172
+											},
+											"position": 0.7375812861271677
+										},
+										{
+											"_class": "gradientStop",
+											"color": {
+												"_class": "color",
+												"alpha": 1,
+												"blue": 0.4147002551020408,
+												"green": 0.4147002551020408,
+												"red": 0.4147002551020408
+											},
+											"position": 1
+										}
+									],
+									"to": "{0.5, 1}"
+								},
 								"noiseIndex": 0,
 								"noiseIntensity": 0,
 								"patternFillType": 1,
@@ -324,8 +404,8 @@
 							"frame": {
 								"_class": "rect",
 								"constrainProportions": false,
-								"height": 80,
-								"width": 80,
+								"height": 113.137,
+								"width": 113.137,
 								"x": 0,
 								"y": 0
 							},
@@ -405,15 +485,15 @@
 					},
 					"frame": {
 						"_class": "rect",
-						"constrainProportions": true,
-						"height": 80,
-						"width": 80,
-						"x": 533,
-						"y": 62
+						"constrainProportions": false,
+						"height": 97.9795,
+						"width": 113.137,
+						"x": 516.4315,
+						"y": 60
 					},
 					"isFixedToViewport": false,
 					"isFlippedHorizontal": false,
-					"isFlippedVertical": false,
+					"isFlippedVertical": true,
 					"isLocked": false,
 					"isVisible": true,
 					"layerListExpandedType": 1,
@@ -449,9 +529,9 @@
 								"color": {
 									"_class": "color",
 									"alpha": 1,
-									"blue": 0.7598996162414551,
-									"green": 0.8883756995201111,
-									"red": 0.3143693506717682
+									"blue": 0.01991642080247402,
+									"green": 0.4596164226531982,
+									"red": 0.2557843029499054
 								},
 								"fillType": 0,
 								"noiseIndex": 0,
@@ -480,8 +560,8 @@
 							"frame": {
 								"_class": "rect",
 								"constrainProportions": false,
-								"height": 80,
-								"width": 80,
+								"height": 97.97949999999973,
+								"width": 113.137,
 								"x": 0,
 								"y": 0
 							},
