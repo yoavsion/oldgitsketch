@@ -1,0 +1,38 @@
+{
+	"commit": "a9a8e0cffcaebe58914746cb1ab8f707ba873565",
+	"pagesAndArtboards": {
+		"F734D27E-E70E-4FAB-BF0C-2373D70F6910": {
+			"name": "Page 1",
+			"artboards": {
+				"EC5B6A47-0B91-433F-8408-2FF3A5BDE354": {
+					"name": "Inspiration"
+				},
+				"6B4C860B-33CA-4CB9-B518-4B9636DD0C4E": {
+					"name": "Shapes"
+				}
+			}
+		}
+	},
+	"version": 105,
+	"fonts": [
+		"Helvetica-Bold"
+	],
+	"compatibilityVersion": 99,
+	"app": "com.bohemiancoding.sketch3",
+	"autosaved": 0,
+	"variant": "NONAPPSTORE",
+	"created": {
+		"commit": "a9a8e0cffcaebe58914746cb1ab8f707ba873565",
+		"appVersion": "51.3",
+		"build": 57544,
+		"app": "com.bohemiancoding.sketch3",
+		"compatibilityVersion": 99,
+		"version": 105,
+		"variant": "NONAPPSTORE"
+	},
+	"saveHistory": [
+		"NONAPPSTORE.57544"
+	],
+	"appVersion": "51.3",
+	"build": 57544
+}
