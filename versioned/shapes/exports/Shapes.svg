@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="706px" height="231px" viewBox="0 0 706 231" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: sketchtool 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Shapes</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Shapes">
+            <rect id="Rectangle" stroke="#979797" fill="#F8E71C" x="93.5" y="62.5" width="79" height="79"></rect>
+            <circle id="Oval" stroke="#979797" fill="#7ED321" cx="353" cy="102" r="40"></circle>
+            <polygon id="Triangle" stroke="#979797" fill="#50E3C2" points="573 62 613 142 533 142"></polygon>
+            <text id="SQUARE" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="107" y="189">SQUARE</tspan>
+            </text>
+            <text id="CIRCLE" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="331" y="189">CIRCLE</tspan>
+            </text>
+            <text id="TRIANGLE" font-family="Helvetica-Bold, Helvetica" font-size="12" font-weight="bold" fill="#000000">
+                <tspan x="542" y="189">TRIANGLE</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
