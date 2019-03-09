@@ -26,6 +26,7 @@ var Promise     = require("bluebird");
 var readdir     = Promise.promisify(require("recursive-readdir"));
 var remDir      = Promise.promisify(fs.remove);
 var parseXml    = Promise.promisify(xml2js.parseString);
+var zipFolder   = Promise.promisify(require("zip-a-folder").zipFolder);
 
 var internals = {
     initConfig: function () {
@@ -487,13 +488,14 @@ var sketch = {
         }
 
         var parentDirName = internals.getBaseName(parentDirPath);
-        var sketchFilePath = path.join(parentDirPath, "..", parentDirName + ".sketch");
+        var sketchFilePath = path.join(parentDirPath, parentDirName + ".sketch");
         grunt.log.debug("parentDirName: " + parentDirName);
         grunt.log.debug("sketchFilePath: " + sketchFilePath);
 
         grunt.verbose.write("Generating " + sketchFilePath + " from " + unpackedDirPath);
-        return compressing.zip.compressDir(unpackedDirPath, sketchFilePath).then(function () {
+        return zipFolder(unpackedDirPath, sketchFilePath).then(function () {
             grunt.verbose.ok();
+            return sketchFilePath;
         });
     },        
 };
