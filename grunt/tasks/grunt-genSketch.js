@@ -23,8 +23,8 @@ module.exports = function (grunt) {
             grunt.fail.fatal("Usage: grunt genSketch --src=<git-sketch-folder>");
         }
 
-        sketch.generate(parentDirPath).then(function () {
-            grunt.log.writeln("Sketch file generated successfully");
+        sketch.generate(parentDirPath).then(function (sketchFilePath) {
+            grunt.log.writeln("Sketch file generated successfully: " + sketchFilePath);
             done(true);
         }).catch(function (error) {
             grunt.log.error("Failed generating sketch file:");
